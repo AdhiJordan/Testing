@@ -1,0 +1,7 @@
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Debug\netcoreapp2.1\LeadIQ.csprojAssemblyReference.cache
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Debug\netcoreapp2.1\LeadIQ.csproj.CoreCompileInputs.cache
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Debug\netcoreapp2.1\LeadIQ.RazorAssemblyInfo.cache
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Debug\netcoreapp2.1\LeadIQ.RazorAssemblyInfo.cs
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Debug\netcoreapp2.1\LeadIQ.AssemblyInfoInputs.cache
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Debug\netcoreapp2.1\LeadIQ.AssemblyInfo.cs

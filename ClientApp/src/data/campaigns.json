@@ -1,0 +1,16 @@
+[
+
+  {
+    "imageUrl": "/img/campaign-import-one.jpg",
+    "description": "Using LeadIQ's Extension"
+  },
+  {
+    "imageUrl": "/img/campaign-import-two.jpg",
+    "description": "Upload a CSV of a Prospect's Name and Company Name, or Your Target Accounts and Titles."
+  },
+  {
+    "imageUrl": "/img/campaign-import-third.jpg",
+    "description": "Search our Database of over 250k accounts."
+  }
+
+]

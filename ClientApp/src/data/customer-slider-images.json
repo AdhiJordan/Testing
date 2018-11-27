@@ -1,0 +1,26 @@
+[
+  {
+    "imageUrl": "/img/customers-image-slider-1.jpg",
+    "title": "DemandDrive",
+    "description": "DemandDrive Increased Meetings by 42% using LeadIQ.",
+    "addCls":  "active"
+  },
+  {
+    "imageUrl": "/img/customers-image-slider-2.png",
+    "title": "AdStage",
+    "description": "AdStage's Sales Team Increased Outbound Activities by 200%.",
+    "addCls": ""
+  },
+  {
+    "imageUrl": "/img/customers-image-slider-3.png",
+    "title": "Teem",
+    "description": "Teem increased their prospecting speed by 20%. ",
+    "addCls": ""
+  },
+  {
+    "imageUrl": "/img/customers-image-slider-4.jpg",
+    "title": "Sojern",
+    "description": "Sojern brought in $50K in bookings with just a 2-month pilot of LeadIQ.",
+    "addCls": ""
+  }
+]

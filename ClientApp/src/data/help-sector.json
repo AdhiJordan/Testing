@@ -1,0 +1,23 @@
+[
+
+  {
+    "imageUrl": "/img/vp-sales.png",
+    "title": "VP of Sales",
+    "description": "Every Second in  sales counts. You hired your sales team to sell, not do data entry."
+  },
+  {
+    "imageUrl": "/img/sales-operation.png",
+    "title": "Sales Operations",
+    "description": "You're the architect of your team's entire sales stack. You enable the entire team to research prospects, log account activity, and reach out efficiently."
+  },
+  {
+    "imageUrl": "/img/sales-development.png",
+    "title": "Sales Development Reps",
+    "description": "Imagine as you browse the web that in one click you can see which prospects are in Salesforce, and then import the ones that aren't with detailed contact info."
+  },
+  {
+    "imageUrl": "/img/account-executives.png",
+    "title": "Account Executives",
+    "description": "Make the prospecting part of your job a lot easier. Identify influencers within the companies you are prospecting."
+  }
+]

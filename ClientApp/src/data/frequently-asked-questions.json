@@ -1,0 +1,34 @@
+[
+
+  {
+    "question": "Can I try LeadIQ before purchasing?",
+    "content": "Absolutely. You can try LeadIQ data for free by joining our LeadIQ community, or you can get a fully-featured trial of the LeadIQ workflow, database, and premium data from our data partners by requesting a demo with the sales team.",
+    "contentOne": "",
+    "contentTwo": ""
+  },
+  {
+    "question": "Where does LeadIQ data come from?",
+    "content": "LeadIQ gathers data from dozens of data sources. Some of it is publicly available, and we obtain some premium data through partnerships with data vendors that pass our rigorous quality checks.",
+    "contentOne": "LeadIQ's proprietary algorithm aggregates the data, revalidates it to make sure that we provide the most up-to-date information, and deduplicates the contacts using their social media info.",
+    "contentTwo": "Many companies subscribe to many databases for contacts, and their users have to check against each of them. With LeadIQ, you can let us take care of that work and we will always deliver the most accurate and up-to-date data available."
+  },
+  {
+    "question": "What kind of coverage does LeadIQ data have?",
+    "content": "LeadIQ has over 10 million contacts from over 1 million companies all over the world. We have coverage in US, EMEA, and APAC.",
+    "contentOne": "",
+    "contentTwo": ""
+  },
+  {
+    "question": "Why is LeadIQ giving away its data for free?",
+    "content": "Over the past few years, LeadIQ has been helping thousands of sales reps bring in more deals by eliminating bottlenecks in the prospecting process. As important as these things are, guessing emails and checking if prospects are already in Salesforce is not a good use of a sales person's time.",
+    "contentOne": "As our battle with time has waged on, we noticed that there are a number of organizations out there who need access to new prospects' data but don't necessarily need all of the features we offer at LeadIQ. We built the LeadIQ community plan so that salespeople can help each other through our crowdsource database.",
+    "contentTwo": "To learn more about our Free Community Plan, check it out here."
+  },
+  {
+    "question": "What data does LeadIQ get from my Salesforce?",
+    "content": "LeadIQ connects to Salesforce to check if a prospect is an existing contact or lead in Salesforce. LeadIQ does not store or collect data from your Salesforce for any purpose other than to deduplicate your data.",
+    "contentOne": "",
+    "contentTwo": ""
+  }
+
+]

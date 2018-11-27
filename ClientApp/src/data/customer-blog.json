@@ -1,0 +1,48 @@
+﻿[
+
+  {
+    "mainCls": "row pt-4",
+    "title": "Cold Prospecting with Carlos Scott",
+    "blogData": [
+      {
+        "title": "Cold Prospecting with Carlos Scott",
+        "bgImage": "/img/customers-image-1.jpeg",
+        "authorAvatar": "/img/blog/ryan-avatar.png",
+        "author": "Ryan O’Hara",
+        "addCls": "col-md-7 col-lg-7 pt-2",
+        "navLink": "/blog/cold-prospecting-with-carlos-scott"
+      },
+      {
+        "title": "Jon Mazza is Back!",
+        "bgImage": "",
+        "authorAvatar": "/img/blog/ryan-avatar.png",
+        "author": "Ryan O'Hara",
+        "addCls": "col-md-5 col-lg-5 pt-2",
+        "navLink": "/blog/jon-mazza-is-back"
+      }
+    ]
+  },
+  {
+    "mainCls": "row pt-4",
+    "title": "More Evidence That Brand Archetyping Works",
+    "blogData": [
+      {
+        "title": "More Evidence That Brand Archetyping Works",
+        "bgImage": "/img/customers-image-2.jpg",
+        "authorAvatar": "/img/blog/ryan-avatar.png",
+        "author": "Ryan O'Hara",
+        "addCls": "col-md-5 col-lg-5 pt-2",
+        "navLink": "/blog/more-evidence-that-brand-archetyping-works"
+      },
+      {
+        "title": "Proof That The Ruler Brand Archetype Works",
+        "bgImage": "/img/customers-image-3.jpg",
+        "authorAvatar": "/img/blog/ryan-avatar.png",
+        "author": "Ryan O'Hara",
+        "addCls": "col-md-7 col-lg-7 pt-2",
+        "navLink": "/blog/proof-that-the-ruler-brand-archetype-works"
+      }
+    ]
+  }
+
+]

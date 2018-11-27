@@ -1,0 +1,35 @@
+[
+
+  {
+    "legalRights": "The right to be informed",
+    "GDPR": "LeadIQ wishes to keep you informed as to what we do with your personal information. We strive to be transparent about how we use your data."
+  },
+  {
+    "legalRights": "The right to access",
+    "GDPR": "You have the right to access your information at any time. Please contact us at support@leadlq.com if you wish to access the personal information LeadIQ holds about you."
+  },
+  {
+    "legalRights": "The right to rectification",
+    "GDPR": "If the information LeadIQ holds about you is inaccurate or not complete, you have the right to ask us to rectify it. If that data has been passed to a third party with your consent or for legal reasons, then we must also ask them to rectify the data. Please contact us for more information: support@leadlq.com."
+  },
+  {
+    "legalRights": "The right to erasure",
+    "GDPR": "Sometimes called 'the right to be forgotten'. You have the right to request that LeadIQ to erase all your personal data, if you wish to do so please our team: support@leadlq.com."
+  },
+  {
+    "legalRights": "The right to restrict processing",
+    "GDPR": "You have the right to ask LeadIQ to restrict how we process your data. This means we are permitted to store the data but not further process it. We will only keep enough data to ensure that we can accommodate any additional requests. Please contact our team at: support@leadlq.com."
+  },
+  {
+    "legalRights": "The right to data portability",
+    "GDPR": "LeadIQ must allow you to port and reuse your personal data for your own purposes across different platforms. Please contact our team if you wish to receive additional information on how to port your data elsewhere: support@leadlq.com. This right only applies to personal data that you have provided to us as a data controller."
+  },
+  {
+    "legalRights": "The right to object",
+    "GDPR": "You have the right to object to LeadIQ processing your data even if our processing is due to legitimate purposes as described in our Privacy Notice, if you have any objections please contact our team at: support@leadlq.com."
+  },
+  {
+    "legalRights": "The right to withdraw consent",
+    "GDPR": "If you have given us your consent to process your data but change your mind later, you have the right to withdraw your consent at any time, and LeadIQ must stop processing your data. If you want to withdraw your consent, please contact our team at: support@leadlq.com."
+  }
+]

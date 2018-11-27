@@ -1,0 +1,28 @@
+[
+
+  {
+    "title": "BLOG",
+    "navLink": "/category/blog"
+  },
+  {
+    "title": "PODCAST",
+    "navLink": "/category/podcasts"
+  },
+  {
+    "title": "RATEMYPITCH",
+    "navLink": "/rate-my-pitch"
+  },
+  {
+    "title": "TUTORIAL",
+    "navLink": "/"
+  },
+  {
+    "title": "VIDEO",
+    "navLink": "/category/video"
+  },
+  {
+    "title": "WEBINAR",
+    "navLink": "/category/webinar"
+  }
+
+]

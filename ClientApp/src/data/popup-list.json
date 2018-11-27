@@ -1,0 +1,34 @@
+[
+
+  {
+    "title": "Webinars",
+    "description": "In-depth sales prospecting tips, product walkthroughs, and more.",
+    "linkUrl": "/webinars"
+  },
+  {
+    "title": "Videos",
+    "description": "Video content for sales professionals that want to move the needle.",
+    "linkUrl": "/video"
+  },
+  {
+    "title": "Podcast",
+    "description": "Expert interviews and world class sales training.",
+    "linkUrl": "/podcasts"
+  },
+  {
+    "title": "Rate My Pitch",
+    "description": "Send your sales pitch emails and we will tear them down live!",
+    "linkUrl": "/rate-my-pitch"
+  },
+  {
+    "title": "Blog",
+    "description": "Trending sales articles, what's new, and more.",
+    "linkUrl": "/blog"
+  },
+  {
+    "title": "University",
+    "description": "Formulas and workflows to excel in your sales career.",
+    "linkUrl": "/university"
+  }
+
+]

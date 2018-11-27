@@ -1,0 +1,22 @@
+[
+
+  {
+    "imageUrl": "/img/quote-jack-1.jpg",
+    "title": "Jack Kosakowski, CEO at CreationAgency (US)",
+    "quote": "Time is money. LeadIQ saves you tons of time which equates to saving many dimes. You can find data, validate the data, and push the data into CRM within minutes.",
+    "addCls": "active"
+  },
+  {
+    "imageUrl": "/img/quote-jack-2.jpg",
+    "title": "Jack Matsen, Senior Account Executive at Adstage",
+    "quote": "LeadIQ just gets it. They make outbound prospecting way less tedious on our SDR team, which makes them do it more. Their integration with Outreach makes our sales team so much time!",
+    "addCls": ""
+  },
+  {
+    "imageUrl": "/img/quote-jack-3.jpg",
+    "title": "Scott Smith, VP of Sales at CloudApp",
+    "quote": "LeadIQ was a key part of our early growth at CloudApp. It was the missing part of our sales stack of LinkedIn Sales Navigator and Salesforce. Using them made doing calling, email, and social selling way easier for the whole team.",
+    "addCls": ""
+  }
+
+]

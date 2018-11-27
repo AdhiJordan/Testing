@@ -1,0 +1,3 @@
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Release\netcoreapp2.1\LeadIQ.csproj.CoreCompileInputs.cache
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Release\netcoreapp2.1\LeadIQ.AssemblyInfoInputs.cache
+C:\Users\AdhityaPrabhu\leadiq-landing-page\LeadIQ\obj\Release\netcoreapp2.1\LeadIQ.AssemblyInfo.cs

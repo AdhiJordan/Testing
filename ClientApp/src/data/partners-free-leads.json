@@ -1,0 +1,27 @@
+[
+  {
+    "label": "salesLoft",
+    "imageUrl": "/img/integration-salesloft.png",
+    "addCls":  "img-set"
+  },
+  {
+    "label": "outReach",
+    "imageUrl": "/img/integration-outreach.png",
+    "addCls": "img-set-position"
+  },
+  {
+    "label": "hubSpot",
+    "imageUrl": "/img/integration-hubspot.png",
+    "addCls": "img-set"
+  },
+  {
+    "label": "salesForce",
+    "imageUrl": "/img/integration-salesforce.png",
+    "addCls": "img-set-position"
+  },
+  {
+    "label": "gmail",
+    "imageUrl": "/img/integration-gmail.png",
+    "addCls": "img-set"
+  }
+]

@@ -1,0 +1,24 @@
+[
+
+  {
+    "imageUrl": "/img/why-leadIq.png",
+    "title": "Why LeadIQ",
+    "description": "LeadIQ was built to help sales teams prospect smarter. If you are still fishing from a database you are missing out on revenue from highly targeted outreach. We can show you how to use LeadIQ to implement research first prospecting.",
+    "linkName": "Lesson 1",
+    "linkUrl": "/leadiq-university-one"
+  },
+  {
+    "imageUrl": "/img/list-building.png",
+    "title": "List Building",
+    "description": "In the world of B2B sales, prospecting is often defined as the art and science of contacting leads or target accounts in hope of creating opportunities. This is how you should be researching prospects to build highly engaged lists for outreach. ",
+    "linkName": "Lesson 2",
+    "linkUrl": "/leadiq-university-two"
+  },
+  {
+    "imageUrl": "/img/sales-outreach.png",
+    "title": "Sales Outreach",
+    "description": "Sales outreach is all about establishing a 1:1 connection. If you aren't customizing your messaging for your target prospects or accounts you need to check this out, we can show you how to do it at scale.",
+    "linkName": "Lesson 3",
+    "linkUrl": "/leadiq-university-three"
+  }
+]

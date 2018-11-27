@@ -1,0 +1,258 @@
+[
+  {
+    "layout": "podcast",
+    "title": "High Fives with Amy Franko",
+    "description": ">-",
+    "coverImage": "./img/podcast/amy-franko-podcast-cover.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "amy-franko"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Amy Volas",
+    "description": "Ryan O'Hara and Amy Volas dive into prospecting in the recruiting world, and how to practice good form to book more connections.",
+    "coverImage": "./img/podcast/podcast-image-4.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-amy-volas"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Calvary's Paul DeJoe",
+    "description": "In today's episode, Paul DeJoe and I will deep dive into personalization with cold email prospecting. Paul is a cofounder of Calvary, a cool startup that helps write effective cold emails for companies. For more info on Calvary cavalryhq.com.",
+    "coverImage": "./img/podcast/podcast-image-20.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-calvarys-paul-dejoe"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Carlos Scott",
+    "description": "Ryan O'Hara sits down and talks with Carlos Scott, from Xeeva about the SDR world, and what's happening in the world of prospecting.",
+    "coverImage": "./img/podcast/podcast-image-1.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-carlos-scott"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Christopher Sweat",
+    "description": "Christopher Sweat sat down and talked with Ryan O'Hara about high volume prospecting, and what problems large companies run into with prospecting for new customers.",
+    "coverImage": "./img/podcast/podcast-image-6.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-christopher-sweat"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Dale Zwizinski",
+    "description": "Ryan O'Hara and Dale Zwizinski from Oracle go deep into changes happening in the prospecting world, and how Dale's experience prospecting at big companies and small has differed.",
+    "coverImage": "./img/podcast/podcast-image-14.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-dale-zwizinski"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Dan Frost",
+    "description": "Dan Frost and Ryan O'Hara talk about different ways to prospect when you start working at a new company.",
+    "coverImage": "./img/podcast/podcast-image-13.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-dan-frost"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Heather Morgan",
+    "description": "In this weeks episode of the Prospecting Podcast, Ryan O'Hara sat down with Heather Morgan, CEO of SalesFolk. Heather is one of the leading experts in cold email copy, and after many years of writing and helping companies figure out their cold email strategy, SalesFolk is helping some of the world's best B2B write better cold emails. In this episode, we'll talk about some best practices in cold email, how Heather found her groove, and also discovering product market fit using prospecting.",
+    "coverImage": "./img/podcast/podcast-image-22.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-heather-morgan"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Jeremy Leveille",
+    "description": "In this episode of the Prospecting Podcast, we talk to Jeremy Leveille,Channel Sales Manager at Navisite. Jeremy has crushed his quota over the past few years, and we thought it'd be great to pick his brain about what works, what has he learned, and some ways you can do better prospecting.",
+    "coverImage": "./img/podcast/podcast-image-19.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-jeremy-leveille"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Heather Morgan",
+    "description": "In this week's episode of the Prospecting Podcast, Ryan and the team at LeadIQ dive into the wild world of prospecting with Kelly Piane, Global BDR Success & Effectiveness at Infor.",
+    "coverImage": "./img/podcast/podcast-image-23.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-kelly-piane"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Lauren Bailey",
+    "description": "Lauren Bailey, the brain behind Factor8, and Ryan O'Hara take a deep dive into cold calling, and teams can tweak just a few things to be better at calling.",
+    "coverImage": "./img/podcast/podcast-image-8.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-lauren-bailey"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Marylou Tyler",
+    "description": "Last month, we sat down and talked with Marylou Tyler, co-author of Predictable Revenue. On this episode of the Prospecting Podcast, Marylou and Ryan talk about picking the right accounts, account based prospecting, and her new book, Predictable Prospecting.",
+    "coverImage": "./img/podcast/podcast-image-24.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-marylou-tyler"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Max Altschuler",
+    "description": "Ryan sits down and talks about being a sales hacker and hacking your sales career with Max Altschuler, VP of Marketing of Outreach, and CEO of SalesHacker.",
+    "coverImage": "./img/podcast/podcast-image-3.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-max-altschuler"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Morgan Ingram",
+    "description": "Back in February, Ryan O'Hara from LeadIQ interviewed Morgan Ingram, who is a Manager of Sales Development at Terminus and talked about how he's been successful as a first time Sales Development Rep, and how he's figured out the wild world of prospecting.",
+    "coverImage": "./img/podcast/podcast-image-21.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-morgan-ingram"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Noah Goldman",
+    "description": "We sat down and talked with Noah Goldman about prospecting at the enterprise level, and how many companies get it wrong.",
+    "coverImage": "./img/podcast/podcast-image-18.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-noah-goldman"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Patrick Barnes",
+    "description": "We sat down and talked with Patrick Barnes, CEO of Advocately about using free offers to get prospects to book meetings with you.",
+    "coverImage": "./img/podcast/podcast-image-17.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-patrick-barnes"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Perry van Beek",
+    "description": "Ryan O'Hara sits down with Perry van Beek, social selling expert and author of the newly released LinkedIn Sales Navigator for Dummies.",
+    "coverImage": "./img/podcast/podcast-image-2.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-perry-van-beek"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Phil Gerbyshak",
+    "description": "In this episode of the Prospecting Podcast, Phil Gerbyshak and Ryan O'Hara deep dive into how to give to your prospects more, and build your own brand on social media.",
+    "coverImage": "./img/podcast/podcast-image-12.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-phil-gerbyshak"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Phill Keene",
+    "description": "Ryan O'Hara sat down and talked to Phill Keene about his new project Costello, and we scheme out some new things happening for best practices in prospecting.",
+    "coverImage": "./img/podcast/podcast-image-15.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-phill-keene"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Sonya Meloff",
+    "description": "Today on the Prospecting Podcast, we sat down with the Sales Talent Agency's cofounder, Sonya Meloff to talk about her start in prospecting selling at Monster.com, and how she's built her empire around sales and recruiting.",
+    "coverImage": "./img/podcast/podcast-image-10.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-sonya-meloff"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Taylor Scotto",
+    "description": "Ryan O'Hara sits down with Taylor Scotto, Head of Business Development at Lingo Live and talked about social selling, prospecting, and working at LinkedIn as a prospector.",
+    "coverImage": "./img/podcast/podcast-image-7.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-taylor-scotto"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With TextExpander",
+    "description": "In this episode we talk with Mike Burda, head sales guy at Smile, the company behind TextExpander.",
+    "coverImage": "./img/podcast/podcast-image-27.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-textexpander"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With The Sales Huddle",
+    "description": "In this weeks prospecting podcast, we talked Roger Bernardino, The Sales Huddles VP of Business Development. This episode, we talk a ton about professional development, how to get your team rolling faster, and how they prospect their HR game to the masses.",
+    "coverImage": "./img/podcast/podcast-image-25.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-the-sales-huddle"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Zach Barney",
+    "description": "In today's episode, we talk with Zach Barney from Teem. Zach talks about management, how they deal with prospecting, and some creative ways they build up pipeline. The Prospecting Podcast from LeadIQ will help you with prospecting, business development, and starting new relationships to build pipeline.",
+    "coverImage": "./img/podcast/podcast-image-26.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "high-fives-with-zach-barney"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with CoffeeSender",
+    "description": "Ryan O'Hara, Jim Morris, and Mei Siauw take you into the wild world of sales prospecting with special guest, seasoned sales vet, Braydan Young, cofounder of CoffeeSender.com.",
+    "coverImage": "./img/podcast/podcast-image-31.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "leadiq-podcast-1-high-fives-with-coffeesender"
+  },
+  {
+    "layout": "podcast",
+    "title": "Mini Prospecting Podcast With Jeremy Leveille",
+    "description": "Ryan O'Hara and Jeremy Leveille were on a train heading to Boston and we decided to record a quick podcast about some new trends Jeremy's noticing with prospecting.",
+    "coverImage": "./img/podcast/podcast-image-9.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "mini-prospecting-podcast-with-jeremy-leveille"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with David Weisburd",
+    "description": "Ryan O'Hara takes you into the wild world of sales prospecting. This week we talk with special guest serial entrepreneur, David Weisburd. David's successfully founded and funded several successful startups, and is currently teaching a sales course for startups online.",
+    "coverImage": "./img/podcast/podcast-image-30.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "podcast-2-high-fives-with-david-weisburd"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Sendbloom",
+    "description": "Ryan O'Hara takes you into the wild world of sales prospecting with special guest, David Sneider, who runs Growth and Customer Success at Sendbloom.",
+    "coverImage": "./img/podcast/podcast-image-29.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "prospecting-podcast-3-high-fives-with-sendbloom"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives With Koka Sexton",
+    "description": "The Prospecting Podcast by LeadIQ dives into the knitty gritty underground world of prospecting, and building up pipeline for sales teams. This podcast is all about how get better response rates, find the best contacts, and network with the best people who will buy your prooduct or service. In this episode, we dive into how to bring leads using your social media channels with Koka Sexton.",
+    "coverImage": "./img/podcast/podcast-image-28.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "prospecting-podcast-4-high-fives-with-koka-sexton"
+  },
+  {
+    "layout": "podcast",
+    "title": "High Fives with Jon Mazza",
+    "description": "In this weeks episode of the Prospecting Podcast, we sat down and talked about cold calling with Jon Mazza, who worked at By Appointment Only, and currently works at LeadIQ.",
+    "coverImage": "./img/podcast/podcast-image-16.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "prospecting-podcast-with-jon-mazza"
+  },
+  {
+    "layout": "podcast",
+    "title": "Prospecting Podcast with Tito Bohrt",
+    "description": "Ryan O'Hara and Tito Bohrt talk about prospecting, how to structure SDR teams, and the future of researching prospects.",
+    "coverImage": "./img/podcast/podcast-image-5.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "prospecting-podcast-with-tito-bohrt"
+  },
+  {
+    "layout": "podcast",
+    "title": "The Prospecting Podcast With Alex Goldfayn",
+    "description": "Ryan O'Hara sat down and talked with Alex Goldfayne, Author of Bold Selling. We talk about some ways sales reps can be bolder when they sell.",
+    "coverImage": "./img/podcast/podcast-image-11.jpg",
+    "publishDate": "0001-01-01T00:00:00",
+    "url": "the-prospecting-podcast-with-alex-goldfayn"
+  }
+]
