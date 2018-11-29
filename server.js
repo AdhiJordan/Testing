@@ -56,8 +56,8 @@ function setApi(data){
   logFinal.push(JSON.parse(dataTest));
 
   app.get('/api/listBlogs', function (req, res) {
-      res.send(logFinal)
-    })
+     
+    }) res.send(logFinal)
 }
 
 

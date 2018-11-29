@@ -1,4 +1,4 @@
-var path = require('path');
+gitvar path = require('path');
 
 const webpack = require('webpack');
 var Extract = require('extract-text-webpack-plugin');
