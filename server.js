@@ -12,53 +12,53 @@ app.use(cors());
 
 app.use(express.static('public'))
 
-var fullPath = [],  blog = null;
+// var fullPath = [],  blog = null;
 
-var logFinal = [];
-var showData  = null;
-var cssFileCount = 0;
+// var logFinal = [];
+// var showData  = null;
+// var cssFileCount = 0;
 
-var glob = require( 'glob' );  
+// var glob = require( 'glob' );  
 
-glob( 'ClientApp/src/blogs/*.md', function( err, files ) {
-   return cssFileCount = (files.length);
-});
+// glob( 'ClientApp/src/blogs/*.md', function( err, files ) {
+//    return cssFileCount = (files.length);
+// });
 
 
-traverseDir('ClientApp/src/blogs');
- function traverseDir(dir) {
-   fs.readdirSync(dir).forEach(file => {
-     fullPath = path.join(dir, file);
-          if (fs.lstatSync(fullPath).isDirectory()) {
-            traverseDir(fullPath);
-            readFile(fullPath)
-          } else {
-            readFile(fullPath)
-          }
-   });
-}
+// traverseDir('ClientApp/src/blogs');
+//  function traverseDir(dir) {
+//    fs.readdirSync(dir).forEach(file => {
+//      fullPath = path.join(dir, file);
+//           if (fs.lstatSync(fullPath).isDirectory()) {
+//             traverseDir(fullPath);
+//             readFile(fullPath)
+//           } else {
+//             readFile(fullPath)
+//           }
+//    });
+// }
 
-function readFile() {
-  var md = require("markdown").markdown;
-      fs.readFile(fullPath, {encoding: 'utf-8'}, function(err,data){
-        if (!err) {
-            blog= fm(data);
-            showData = (JSON.stringify(blog) + ',');
-            setApi(showData);
-        } else {
-            console.log(err);
-        }
-    });
-}
+// function readFile() {
+//   var md = require("markdown").markdown;
+//       fs.readFile(fullPath, {encoding: 'utf-8'}, function(err,data){
+//         if (!err) {
+//             blog= fm(data);
+//             showData = (JSON.stringify(blog) + ',');
+//             setApi(showData);
+//         } else {
+//             console.log(err);
+//         }
+//     });
+// }
 
-function setApi(data){
-  var dataTest = data.substring(0, data.length - 1);
-  logFinal.push(JSON.parse(dataTest));
+// function setApi(data){
+//   var dataTest = data.substring(0, data.length - 1);
+//   logFinal.push(JSON.parse(dataTest));
 
-  app.get('/api/listBlogs', function (req, res) {
+//   app.get('/api/listBlogs', function (req, res) {
      
-    }) res.send(logFinal)
-}
+//     }) res.send(logFinal)
+// }
 
 
 if(process.env.NODE_ENV === 'production') {
