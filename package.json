@@ -67,6 +67,6 @@
     "preload-webpack-plugin": "^3.0.0-beta.3",
     "redux-thunk": "^2.2.0",
     "style-loader": "^0.21.0",
-    "webpack": "^3.12.0"
+    "webpack": "^4.0.0"
   }
 }
