@@ -12,11 +12,11 @@ app.use(cors());
 
 app.use(express.static('public'))
 
-let fullPath = [],  blog = null;
+var fullPath = [],  blog = null;
 
 let logFinal = [];
 var showData  = null;
-let cssFileCount = 0;
+var cssFileCount = 0;
 
 var glob = require( 'glob' );  
 
@@ -43,7 +43,7 @@ function readFile() {
       fs.readFile(fullPath, {encoding: 'utf-8'}, function(err,data){
         if (!err) {
             blog= fm(data);
-            let showData = (JSON.stringify(blog) + ',');
+            showData = (JSON.stringify(blog) + ',');
             setApi(showData);
         } else {
             console.log(err);
@@ -52,7 +52,7 @@ function readFile() {
 }
 
 function setApi(data){
-  let dataTest = data.substring(0, data.length - 1);
+  var dataTest = data.substring(0, data.length - 1);
   logFinal.push(JSON.parse(dataTest));
 
   app.get('/api/listBlogs', function (req, res) {
