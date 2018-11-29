@@ -63,9 +63,9 @@ app.use(express.static('public'))
 
 if(process.env.NODE_ENV === 'production') {
 	app.use(express.static('public/build'));
-	app.get('*',  (req, res) => {
-		res.sendFile(path.resolve(__dirname, 'public', 'build', 'index.html'));      
-	})
+  app.get("*", function(req, res) {
+    res.sendFile(path.resolve(__dirname, 'public', 'build', 'index.html')); 
+});
 }
 
 app.listen(1113, function(){
