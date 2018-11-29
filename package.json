@@ -14,7 +14,7 @@
     "npm": ">=6.1.0"
   },
   "scripts": {
-    "start": "node server.js && node_modules/.bin/webpack --config webpack.js --watch"
+    "start": "node server.js && webpack --w"
   },
   "repository": {
     "type": "git"
@@ -50,7 +50,7 @@
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "sass-loader": "^7.0.1",
-    "webpack-cli": "^2.1.4"
+    "webpack-cli": "^2.1.5"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
