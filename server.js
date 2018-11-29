@@ -59,13 +59,28 @@ app.use(express.static('public'))
      
 //     }) res.send(logFinal)
 // }
-
+app.use(function(req, res) {
+     res.send('404: Page not Found', 404);
+  });
+  
+  // Handle 500
+  app.use(function(error, req, res, next) {
+     res.send('500: Internal Server Error', 500);
+  });
 
 if(process.env.NODE_ENV === 'production') {
 	app.use(express.static('public/build'));
   app.get("*", function(req, res) {
     res.sendFile(path.resolve(__dirname, 'public', 'build', 'index.html')); 
 });
+  app.use(function(req, res) {
+     res.send('404: Page not Found', 404);
+  });
+  
+  // Handle 500
+  app.use(function(error, req, res, next) {
+     res.send('500: Internal Server Error', 500);
+  });
 }
 
 app.listen(1113, function(){
