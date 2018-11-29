@@ -14,7 +14,7 @@ app.use(express.static('public'))
 
 var fullPath = [],  blog = null;
 
-let logFinal = [];
+var logFinal = [];
 var showData  = null;
 var cssFileCount = 0;
 
