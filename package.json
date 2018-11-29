@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "leadiqtesting",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is testing website ",
   "private": true,
   "main": "index.js",
   "proxy": {
@@ -16,9 +16,10 @@
     "type": "git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adhithya Prabhu",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^3.6.0",
     "axios": "^0.18.0",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
@@ -35,9 +36,12 @@
     "node-sass": "^4.9.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-helmet": "^5.2.0",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-slick": "^0.23.2",
     "react-transmit": "^3.2.0",
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
