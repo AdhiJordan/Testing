@@ -4,13 +4,12 @@
   "description": "",
   "private": true,
   "main": "index.js",
-  "proxy": {
-    "/api/listBlogs": {
-      "target": "http://localhost:1339"
-    }
+  "engines": {
+    "node": "10.1.0"
   },
   "scripts": {
-    "start": "node server.js && node_modules/.bin/webpack --config webpack.js --watch"
+    "start": "node server.js && node_modules/.bin/webpack --config webpack.js --watch",
+    "build": "webpack — config webpack.config.js"
   },
   "repository": {
     "type": "git"
