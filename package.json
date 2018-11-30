@@ -6,16 +6,11 @@
   "main": "index.js",
   "proxy": {
     "/api/listBlogs": {
-      "target": "https://leadiq-dev.azurewebsites.net/"
+      "target": "http://localhost:1339"
     }
   },
-  "engines": {
-    "node": ">=8.11.3",
-    "npm": ">=6.1.0"
-  },
   "scripts": {
-    "start": "node server.js && webpack --w",
-    "build": "webpack --w"
+    "start": "node server.js && node_modules/.bin/webpack --config webpack.js --watch"
   },
   "repository": {
     "type": "git"
@@ -24,7 +19,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^3.6.0",
     "axios": "^0.18.0",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
@@ -41,17 +35,16 @@
     "node-sass": "^4.9.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-helmet": "^5.2.0",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-router-redux": "^4.0.8",
-    "react-slick": "^0.23.2",
     "react-transmit": "^3.2.0",
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "sass-loader": "^7.0.1",
-    "webpack-cli": "^2.1.5",
+    "webpack-cli": "^2.1.4"
+  },
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -66,6 +59,6 @@
     "preload-webpack-plugin": "^3.0.0-beta.3",
     "redux-thunk": "^2.2.0",
     "style-loader": "^0.21.0",
-    "webpack": "^4.0.0"
+    "webpack": "^3.12.0"
   }
 }

@@ -5,8 +5,14 @@ var Extract = require('extract-text-webpack-plugin');
 
 var plugins = [];
 
+const env = process.env.NODE_ENV
+
+const config = {
+   mode: env || 'development'
+}
+
 module.exports = {
-	entry:  "./ClientApp/index.js",
+	entry:  "/ClientApp/index.js",
 	output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'public', 'build')
@@ -37,7 +43,6 @@ module.exports = {
 				           loader: "css-loader"
 				         }
 			        ]
-           
             },
             {
 				test: /\.js$/,
@@ -51,7 +56,22 @@ module.exports = {
 	},
 	watchOptions: {
 	    poll: true
-	}
+	},
+	    plugins: removeEmpty([
+      new ProgressBarPlugin(),
+      new HtmlWebpackPlugin({
+        template: resolve(__dirname, 'public/index.html')
+      }),
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: ifProd('"production"', '"development"')
+        }
+      }),
+      ifProd(new webpack.LoaderOptionsPlugin({
+        minimize: true,
+        debug: true
+      }))
+    ])
 };
 
 
