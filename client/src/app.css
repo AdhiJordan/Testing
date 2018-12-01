@@ -1,0 +1,2336 @@
+﻿
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Lato, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1.25rem;
+    }
+}
+
+.lightboxDesign{
+    width: 100%;
+    height: 800px;
+    border: none;
+}
+
+.prospect-cover-image {
+    background-image: url('/img/home-bg-cover.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    line-height: 1.5;
+}
+
+
+    section h1 {
+        color: #444444;
+    }
+
+footer {
+    position: relative;
+    background-color: #485366;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+    footer a {
+        color: white;
+    }
+
+        footer a:hover {
+            color: white;
+            opacity: 0.5;
+        }
+
+.v-middle {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.titleFix{
+    top: 500px;
+}
+.btn {
+    border-radius: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* or simply "1fr 1fr;" */
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.grid-item {
+    background-color: #f8f8f8;
+    box-shadow: 0 0 3px #666;
+    text-align: center;
+}
+
+    .grid-item img {
+        max-width: 100%;
+    }
+
+.liq-navbar {
+    background-color: #EAFEF4;
+    font-size: 1.1rem;
+}
+
+.liq-text-primary {
+    color: #00D586;
+}
+
+.liq-btn-primary {
+    background-color: #00D586;
+    color: white;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+    .liq-btn-primary:hover {
+        color: white;
+        opacity: 0.8;
+    }
+
+
+
+.liq-btn-primary-lg, .liq-btn-secondary-lg {
+    font-size: 1.25rem;
+}
+
+@media (min-width: 992px) {
+    .liq-btn-primary-lg, .liq-btn-secondary-lg {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+.liq-btn-secondary {
+    background-color: #839abc;
+    color: white;
+    font-weight: 500;
+}
+
+    .liq-btn-secondary:hover {
+        color: white;
+        opacity: 0.8;
+    }
+
+.liq-nav-link {
+    margin-left: .5rem;
+    font-weight: 500;
+}
+
+.liq-nav-button {
+    margin-left: .5rem;
+    font-size: 1rem;
+}
+
+.liq-footer-link {
+    padding: .1rem 0rem;
+}
+
+.liq-footer-blog-link {
+    padding: .5rem 0rem;
+    font-size: 0.8rem;
+}
+
+.liq-footer-link-small {
+    font-size: 0.8rem;
+    padding: .1rem 0rem;
+}
+
+.card-blog {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .card-blog {
+        padding: 5rem;
+    }
+}
+.iframeVideo {
+    width: 100%;
+    overflow: scroll;
+    min-height: 50vh;
+    display: -webkit-box;
+    height: -webkit-fill-available;
+}
+
+.card-faq {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .card-faq {
+        padding: 5rem;
+    }
+}
+
+@media (max-width: 766px) {
+    .card-faq {
+        padding: 3rem;
+    }
+}
+
+.card-resource {
+    background-image: url('/img/wave-prospect-section.png');
+    background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+}
+
+@media (min-width: 768px) {
+    .card-resource {
+        min-height: 300px;
+    }
+}
+
+.card-quote {
+    border: 1px solid #8099bd;
+    padding: 24px;
+    color: #8099bd;
+    border-radius: 24px;
+}
+
+.img-quote {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: -32px;
+    background-color: white;
+}
+
+.card-excuse {
+    border-radius: 24px;
+    box-shadow: 0 9px 28px 0 rgba(0, 0, 0, 0.34);
+    top: 70vh;
+    z-index: 1;
+}
+
+.cover-rate-my-pitch {
+    background-image: url('/img/waves.png');
+    position: relative;
+    background-position-y: 60vh;
+    background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
+
+.check-icon {
+    margin: 8px;
+}
+
+.cover-content {
+    background-color: #EAFEF4;
+}
+
+.cardBoxDesign {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.labelUniversityOne {
+    font-size: 20px;
+    color: #485366;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+@media (min-width: 1045px) and (max-width: 1600px) {
+    .titleFix{
+        top: 200px;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1044px) {
+    .titleFix {
+        top: 100px;
+    }
+}
+@media (min-width: 1601px) and (max-width: 1900px) {
+    .titleFix {
+        top: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cover {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .cover-content {
+        position: absolute;
+        width: 100%;
+        background-color: transparent;
+    }
+}
+
+.blog-cover {
+    background-image: url('/img/cover.jpg');
+    background-size: cover;
+}
+
+.blog-header {
+    background-color: #efefef;
+}
+
+.blog-container {
+    background-color: #f7f9fb;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.blog-card {
+    background-color: #f7f9fb;
+    text-align: center;
+}
+
+.blog-content {
+    background-color: #fff;
+    padding: 16px 24px;
+}
+
+.partner-title {
+    padding-top: 6%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.partner-logo {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-section {
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.08);
+    color: #8099bd;
+}
+
+.quote {
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.testimonial-section {
+    background-image: url(/img/waves.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 15vh;
+}
+.cardTestimonal {
+    position: relative;
+}
+
+
+.imageDesignUniversityHeader {
+    background-image: url('/img/wave-second.png');
+    background-size: cover;
+    background-position: left top 500px;
+    background-repeat: no-repeat;
+}
+
+.links-list {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.universityHeaderMain {
+    height: 100vh;
+}
+
+.boxContainer {
+    margin-bottom: 250px;
+}
+
+.testimonalSection, .universitySection {
+    position: relative;
+    top: 150px;
+}
+
+mark {
+    background: none;
+    color: #67cc84;
+}
+
+.quotesDesign {
+    position: relative;
+    bottom: 20px;
+    right: 6px;
+}
+
+.quoteUser {
+    margin-top: 4%;
+}
+
+.commentText {
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #485366;
+    padding-top: 20px;
+}
+
+.userQuoteText {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #485366;
+}
+
+.homeBackgroundDesign {
+    max-width: 100%;
+}
+
+.navigationHeader {
+    position: absolute;
+    top: 80px;
+    left: 130px;
+}
+
+.navigationOptions {
+    position: relative;
+}
+
+.university-section {
+    background: #b3e6c2;
+}
+
+.universityLogo {
+    margin-bottom: 20px;
+}
+
+.artBoardDesign {
+    position: absolute;
+    bottom: -95px;
+}
+
+.blogMainSection {
+    padding: 50px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.08);
+    background: #d3d3d3;
+    margin-top: 20px;
+}
+
+.blog-section {
+    text-align: center;
+    background-color: #34515e;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.blog-title {
+    color: #fff;
+}
+
+.content-section {
+    line-height: 4;
+    background: #fff;
+    padding: 20px;
+}
+
+.note-section {
+    padding: 50px 30px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.light-orange {
+    background: url(https://s22909.pcdn.co/wp-content/themes/leads/images/dot-circle.png) 50% 26px no-repeat #fff9f5;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.author-info {
+    background-color: #fff;
+    padding: 30px 55px 40px;
+}
+
+.blog-leadfuze-st .main img {
+    margin: 30px 0;
+}
+
+.author-info .author-thumbnail {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+}
+
+.author-info .author-thumbnail {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-leadfuze-st img {
+    border: 5px solid #e9e9e9;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.author-info .author-desc {
+    margin-left: 110px;
+    font-size: 20px;
+    font-family: 'Muli',serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.email-section {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    background: #ff44;
+}
+
+.emailForm {
+    padding: 80px;
+}
+
+.prospectSmarter {
+    position: absolute;
+    top: 34vh;
+    left: 41vh;
+}
+.list-unstyled {
+    color: #8099bd;
+}
+.highlightText {
+    color: #00D586;
+    padding: 0px;
+}
+
+.leadIqIcon {
+    max-width: 20%;
+    position: absolute;
+    left: 0px;
+    padding-top: 15%;
+    padding-left: 45px;
+}
+
+.leadIqUniversity {
+    max-width: 20%;
+    position: absolute;
+    left: 0px;
+    padding-top: 4%;
+    padding-left: 45px;
+}
+
+.leadIqUniversityOne {
+    max-width: 14%;
+    position: absolute;
+    left: 0px;
+    padding-top: 6%;
+    padding-left: 45px;
+}
+
+.legend-cover {
+    border: 1px solid #d3d3d3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.legend-cover-title {
+    border: 1px solid #fff;
+    background: #fff;
+    position: relative;
+    top: 25px;
+}
+
+.accountLogin {
+    text-align: right;
+}
+
+.contentText {
+    line-height: 2;
+}
+
+.leads-cover {
+    height: 72vh;
+}
+
+.leadIqContent {
+    position: relative;
+    bottom: 70vh;
+}
+
+.img-laptop {
+    position: absolute;
+    right: 85px;
+    top: 40px;
+    min-width: 70%;
+    max-width: 0px;
+}
+
+.titleHeaderDesign {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.email-envlope {
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+}
+
+.email-text {
+    padding-left: 40px;
+    position: relative;
+    right: 12px;
+    border-radius: 2px;
+    height: 53px;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.glyphicon.glyphicon-one-fine-dot:before {
+    content: "\25cf";
+    font-size: 0.8em;
+}
+
+.laptop-screen {
+    text-align: -webkit-center;
+}
+
+.list-text {
+    position: absolute;
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.premium-list-text {
+    position: absolute;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -8px;
+}
+
+.splitter-line {
+    height: 420px;
+    width: 0%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    font-weight: 400 !important;
+    border-right: 1px solid #fff !important;
+    -webkit-box-shadow: 1px 0px 0px black !important;
+    top: 70px;
+}
+
+.clientFeddback {
+    background-color: #485366;
+    color: white;
+}
+
+.tick-design {
+    background-image: url('/img/tick-icon.png');
+    background-repeat: no-repeat;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.get-Touch {
+    position: absolute;
+    right: 25%;
+}
+
+.helpHeaderTitle {
+    font-weight: initial;
+    font-size: 22px;
+    color: rgb(55, 70, 90);
+    line-height: 35px;
+}
+
+.helpDetails {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.universityOne {
+    background-color: #f7f9fb !important;
+}
+
+.sectionBox {
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.blogReferenced {
+    border: 1px solid #67cc84;
+    padding: 20px;
+}
+
+.blogLinkReferenced {
+    border: 1px solid #67cc84;
+    padding: 10px;
+}
+
+.blogSection {
+    border: 1px solid #d3d3d3;
+    padding: 30px;
+    font-size: 16px;
+    color: #82878c;
+}
+
+.prospectList {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+}
+
+.leadIq-image-cover {
+    background-image: url('/img/free-leads-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72vh;
+}
+
+.listIconDesign {
+    font-size: 22px;
+}
+
+.listSection {
+    font-size: 16px;
+    color: rgb(55, 70, 90);
+    font-weight: 400;
+}
+
+.listTitleSection {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: rgb(55, 70, 90);
+    line-height: 26px;
+    text-align: left;
+}
+
+.leadIq-cover-contents {
+}
+
+.legendLeadIq {
+    padding-left: 90px;
+    position: relative;
+    top: 26px;
+}
+
+.headerSectionBar {
+    border: 1px solid;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.leadIqCycle {
+    position: relative;
+    bottom: 30vh;
+}
+
+.block-ellipsis {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #82878c;
+    max-width: 100%;
+    height: 126px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.iconComment {
+    position: absolute;
+    right: 7vh;
+}
+
+.dashicons-admin-comments {
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org…%2011V4q0-.82.59-1.41T5%202z%27%20fill%3D%27%2382878c%27%2F%3E%3C%2Fsvg%3E);
+}
+
+.img-set {
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-set-position {
+    position: relative;
+    top: -8px;
+}
+
+.privacyPolicy {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+    color: #d2d2d2;
+}
+
+.tryFreeDesign {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.textSizeDesign {
+    font-weight: 400;
+    color: #fff;
+}
+
+.mainTextDesign {
+    color: #fff;
+}
+
+.numberDesign {
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 19px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.freeTextDesign {
+    border-radius: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.clientFeedback, .authorText {
+    font-size: 16px;
+}
+
+.roleDesign {
+    font-size: 18px;
+    font-weight: 500;
+    color: #37465a;
+    text-align: right;
+}
+
+.rolePerson {
+    font-size: 28px;
+    font-weight: 500;
+    color: #37465a;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.quoteDesign {
+    position: relative;
+    bottom: 50px;
+    color: #555555;
+    font-size: 64px;
+}
+
+.subscribeDesign, .salesTalkDesign {
+    font-family: Open Sans;
+    font-size: 16px;
+    padding: 16px;
+    box-shadow: rgba(1, 1, 1, 0.5) 0px 1px 3px;
+}
+
+.premiumTitle {
+    color: #37465a;
+    font-size: 22px;
+}
+
+.leadIqOffersText {
+    font-size: 18px;
+    color: #333333;
+}
+
+.pricingSection {
+    padding: 30px;
+}
+
+.soloSection, .teamSection {
+    border: 1px solid #00d586;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.prospectLikePro {
+    background-image: url('/img/waves-third.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reviewPage {
+    color: #666666;
+    font-size: 10px;
+}
+
+.reviewText {
+    color: #333333;
+    font-size: 22px;
+}
+
+.answerText {
+    font-size: 16px;
+    color: #666666;
+}
+
+
+.pipelineText {
+    color: #1e6b91;
+}
+
+.ratingMobileDesign {
+    display: flex;
+    justify-content: left;
+}
+
+.prospectCover {
+    background-image: url('/img/prospect-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.faqCover {
+    background-image: url('/img/faq-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.privacy-Cover, .terms-cover {
+    background-image: url('/img/privacy-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.accountProspectCover {
+    height: 60vh;
+}
+
+.prospectHeaderTitle {
+    padding-top: 100px;
+}
+
+.fontProspect {
+    font-family: Conv SF Pro Text -Heavy;
+}
+
+.prospectText {
+    letter-spacing: 2px;
+}
+
+.chromeText {
+    font-weight: 100;
+}
+
+.waveDesignProspect {
+    width: 100%;
+    position: relative;
+    bottom: 21vh;
+}
+
+.waveDesignAccountVideoProspect {
+    width: 100%;
+    position: relative;
+    bottom: 4vh;
+}
+
+.waveDesign {
+    position: relative;
+    max-height: 230px;
+}
+
+.waveDesignAccountProspect {
+    position: relative;
+    max-height: 360px;
+}
+
+.prospectTitleText {
+    color: #8099bd;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.salesForceCover {
+    background-image: url('/img/wave-prospect-section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.campaignsCover {
+    background-image: url('/img/wave-prospect-section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.emailProspectCover {
+    background-image: url('/img/prospect-wave-second.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cardResourceProspectCover {
+    background-image: url('/img/prospect-wave-second.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-radius: 21px;
+}
+
+.prospectLaptopSecondDesign {
+    position: relative;
+    right: 24vh;
+    max-width: 130%;
+}
+
+.accountProspectLaptopDesign {
+    position: relative;
+    max-width: 130%;
+}
+
+.prospectLaptopOneDesign {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.gettingStarted {
+    position: relative;
+    bottom: 3vh;
+}
+
+.textAlign {
+    text-align: left;
+}
+
+.detailsProspectText {
+    line-height: 40px;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.listProspect {
+    font-size: 22px;
+    color: #485366;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+}
+
+    .video-container video {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+.contactProspectDesign {
+    position: relative;
+}
+
+.clientFeedbackText {
+    padding-top: 15vh;
+}
+
+.resourcesEmail {
+    height: 53px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #f5f9fc;
+    border: 1px solid #f5f9fc;
+}
+
+.salesBoxDesign {
+    border-radius: 15.8px;
+    background-color: #ffffff;
+    box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.11);
+}
+
+.rateTextBox {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #f5f9fc;
+    border: 1px solid #f5f9fc;
+    margin-top: 30px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: solid 1px #8099bd;
+}
+
+.boxSalesDesign {
+    padding-left: 130px;
+    padding-right: 45px;
+}
+
+.hostedText {
+    padding-top: 7vh;
+}
+
+.emailTacticsDesign {
+    color: #8099bd;
+    font-size: 34px;
+}
+
+.helpCenterCover {
+    background-image: url('/img/help-center-cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.videoliciousCover {
+    background-image: url('/img/videolicious-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.quote-legend {
+    border: 1px solid #8099bd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #8099bd;
+}
+
+.quoteDesignHelp {
+    position: relative;
+    top: 40px;
+}
+
+.wave-help-design {
+    background-image: url(/img/wave-bg.png);
+    background-repeat: no-repeat;
+    height: 257px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.waveHelpDesign {
+    position: relative;
+    width: 100%;
+    bottom: 23vh;
+    z-index: -1;
+}
+
+
+.campaign {
+    position: relative;
+}
+
+    .campaign video {
+        position: relative;
+        z-index: 0;
+        min-width: 100%;
+    }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 18vh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoCoverCampaign {
+    position: relative;
+    width: 100%;
+    height: 19%;
+    overflow: hidden;
+    height: 63vh;
+}
+
+.boxImageCampaign {
+    border: 1px solid #00D586;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.waveDesignCampaign {
+    position: relative;
+    max-height: 230px;
+}
+
+.imageWaveCampaign {
+    position: relative;
+    width: 100%;
+    bottom: 26vh;
+}
+
+.imgHalfLeft {
+    position: relative;
+    right: 35vh;
+}
+
+.imgHalfRight {
+    position: relative;
+    left: 35vh;
+}
+.waveContactDesign {
+    background-image: url(/img/wave-large-tide.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.waveBottomDesign {
+    background-image: url(/img/wave-bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.waveProspectListBg {
+    background-image: url(/img/wave-prospect-section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftImageCover {
+    background-image: url(/img/campaign-laptop-one.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position-x: -100%;
+}
+.rightImageCover {
+    background-image: url(/img/campaign-builder-two.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 76% auto;
+    background-position-x: 202%;
+}
+.leftCampaignImage {
+    background-image: url(/img/campaign-builder-fourth.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position-x: -100%;
+}
+.rightImageAccountCover {
+    background-image: url(/img/account-based-laptop-one.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position-x: 230%;
+}
+.leftImageAccountCover {
+    background-image: url(/img/account-based-laptop-second.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position-x: -100%;
+}
+.rightTextAlign {
+    padding-top: 10vh;
+    padding-right: 20vh;
+}
+.leftTextAlign {
+    padding-top: 10vh;
+    padding-left: 20vh;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.emailWebinar {
+    border: 1px solid #3ecf8e;
+    background-color: #fefefe;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.11);
+    color: #0a0a0a;
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.popupCard {
+    min-width: 40rem;
+    padding: 20px;
+    left: -203%;
+    top: 54px;
+    border: none;
+    box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.11);
+}
+.api-reference{
+    display: inline;
+    color: #787878;
+}
+
+
+.pointerDesign:before {
+    content: "";
+    position: absolute;
+    left: 43%;
+    top: -5px;
+    width: 0;
+    height: 0;
+    transform: rotate(-118deg);
+    border-left: 20px solid #fff;
+    border-right: 25px solid transparent;
+    border-bottom: 40px solid #fff;
+    z-index: -1;
+}
+.terms-container {
+    position: relative;
+    bottom: 230px;
+}
+.terms-bg {
+    background-color: #f7f9fb;
+}
+.showDisplay {
+    background-image: url('/img/plus-icon.png');
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    cursor: pointer;
+}
+.hideDisplay {
+    background-image: url('/img/minus-icon.png');
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    cursor: pointer;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.showTitle{
+    color: #000;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.defaultTitle {
+    color: #666;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.privacy-policy-wave {
+    position: relative;
+    height: 472px;
+    bottom: 75px;
+    background-image: url(/img/wave-four.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.faq-waveDesign {
+    background-color: #f7f9fb;
+    position: relative;
+    max-height: 230px;
+}
+
+.faq-waveDesignProspect {
+    width: 100%;
+    position: relative;
+    bottom: 21vh;
+}
+
+
+.homepage-title {
+    font-size: 40px;
+    letter-spacing: -2px;
+    font-weight: 400;
+    color: #485366;
+}
+
+.button-design {
+    font-weight: 400;
+}
+
+.started-button-design, .demo-button-design {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 25px 5px 25px;
+}
+.carousel-edit-caption {
+    position: absolute;
+    right: 19%;
+    bottom: 158px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    width: 20%;
+}
+
+
+
+
+@media screen and (max-width: 1800) {
+    .popupCard{
+        top: 47px;
+    }
+}
+
+@media (max-width:1440px) and (min-width:1280px) {
+    .prospectSmarter {
+        position: absolute;
+        top: 26vh;
+        left: 18vh;
+    }
+
+    .hostedText {
+        padding-top: 2vh;
+    }
+}
+.popupData:hover {
+    background: none;
+    text-decoration: none;
+}
+.fontDesign {
+    font-family: roboto;
+}
+.slick-prev::before, .slick-next::before {
+    color: #000;
+    font-size: 20px;
+}
+.slick-prev {
+    left: -10px;
+    top: 116px;
+}
+.slick-next {
+    right: -10px;
+    top: 116px;
+}
+.close-modal-design {
+    position: relative;
+    right: 18%;
+    z-index: 1;
+    margin-top: -3%;
+    cursor: pointer;
+}
+.image-design-blog {
+    padding: 8px;
+    padding-top: 4px;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+}
+.customer-card-one {
+    border: none;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/customers-image-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.tabDesign {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+    .tabDesign:hover {
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+    }
+.customer-card-two {
+    border: none;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.selectedTab {
+    border-bottom: 1px solid #00D586;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.blog-card-design {
+    border: none;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.customer-card-three {
+    border: none;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/customers-image-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.customer-card-four {
+    border: none;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/customers-image-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.customer-card-text {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+}
+.carousel-caption-content {
+    position: absolute;
+    right: 15%;
+    top: 70%;
+    left: 16%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.homeStepTitle {
+    color: #485366;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.video-slider-container {
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+@media screen and (max-width: 1440px) {
+    .terms-container{
+        bottom: 230px;
+    }
+    .privacy-policy-wave {
+        bottom: 95px;
+    }
+    .carousel-edit-caption{
+        bottom: 50px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .carousel-edit-caption {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 864px) {
+    .cardTestimonal{
+        top: 120px;
+    }
+}
+
+
+
+@media screen and (max-height: 900px) {
+    .prospectHeaderTitle {
+        padding-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .carousel-edit-caption {
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media screen and  (min-width: 768px)  {
+    .modal-dialog {
+        max-width: 1000px;
+        margin: 1.75rem auto;
+        margin-top: 13%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .modal-dialog {
+        margin-top: 13%;
+    }
+    .cover-rate-my-pitch {
+        height: auto;
+        background-image: none;
+    }
+}
+
+    @media screen and (max-width: 1024px) {
+        .prospectTitleText {
+            font-size: 20px;
+        }
+        .privacy-policy-wave {
+            top: 192px;
+            height: 260px;
+        }
+        .box-card{
+            top: 130px;
+        }
+        .pointerDesign:before {
+            display: none;
+        }
+
+        .terms-container {
+            bottom: 190px;
+        }
+
+        .leftImageCover, .rightImageCover, .leftImageAccountCover, .rightImageAccountCover, .leftCampaignImage {
+            height: 20vh;
+        }
+
+        .rightTextAlign {
+            padding-top: 0vh;
+            padding-right: 10vh;
+        }
+
+        .leftTextAlign {
+            padding-top: 0vh;
+            padding-left: 10vh;
+        }
+
+        .waveContactDesign {
+            height: 60vh;
+        }
+
+        .hostedText {
+            padding-top: 0vh;
+        }
+
+        .imgHalfLeft {
+            position: relative;
+            right: 0vh;
+        }
+
+        .imgHalfRight {
+            position: relative;
+            left: 0vh;
+        }
+
+        .excuseCard {
+            position: absolute;
+            top: 73vh;
+            padding: 0px;
+        }
+
+        .imageWaveCampaign {
+            bottom: 10vh;
+        }
+
+        .detailsProspectText {
+            font-size: 16px;
+        }
+
+        .emailTacticsDesign {
+            font-size: 22px;
+        }
+
+        .tabViewDesign {
+            position: relative;
+            top: 5vh;
+        }
+
+        .clientFeedbackText {
+            padding-top: 0vh;
+        }
+    }
+
+    @media (max-width:1024px) and (min-width: 769px) {
+        .navigationHeader {
+            top: 60px;
+            left: 80px;
+        }
+        .carousel-edit-caption{
+            bottom: 5px;
+        }
+        .gettingStarted {
+            top: 10vh;
+        }
+
+        .prospectLaptopSecondDesign {
+            position: relative;
+            top: 10vh;
+            right: 0px;
+            max-width: 100%;
+        }
+
+        .accountProspectLaptopDesign {
+            position: relative;
+            max-width: 90%;
+            top: 9vh;
+            right: 3vh;
+        }
+
+        .waveDesignProspect, .faq-waveDesignProspect {
+            bottom: 7vh;
+        }
+
+
+
+        .waveDesignAccountVideoProspect {
+            top: 21vh;
+            bottom: 0vh;
+        }
+
+        .waveDesign {
+            max-height: 150px;
+        }
+
+        .sectionBox {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+
+        .helpHeaderTitle {
+            font-size: 18px;
+        }
+
+        .img-laptop {
+            position: absolute;
+            left: 82px;
+            top: 40px;
+            min-width: 66%;
+            max-width: 0px;
+        }
+
+        .leads-cover {
+            height: 40vh;
+        }
+
+        .prospectSmarter {
+            position: absolute;
+            top: 14vh;
+            left: 4vh;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .artBoardDesign {
+            position: relative;
+        }
+
+        .imageDesignTestimonals, .imageDesignUniversity {
+            background-position: bottom 300px;
+        }
+
+        .imageDesignUniversityHeader {
+        }
+
+        .prospectSmarter {
+            position: absolute;
+            top: 8vh;
+            font-size: 7px;
+            left: 1vh;
+        }
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .artBoardDesign {
+            position: relative;
+        }
+
+        .faq-waveDesignProspect {
+            bottom: 9vh;
+        }
+
+
+        .sectionBox {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .pointerDesign:before {
+            display: none;
+        }
+
+        .cover-rate-my-pitch{
+            height: auto;
+            background-image: none;
+        }
+
+        .img-laptop {
+            position: absolute;
+            left: 76px;
+            top: 34px;
+            min-width: 67%;
+            max-width: 0px;
+        }
+
+        .contactProspectDesign {
+            position: relative;
+            top: 9vh;
+            height: 50vh;
+            left: 3vh;
+        }
+
+        .emailWebinar{
+            margin-bottom: 10px;
+        }
+        .cover-rate-my-pitch{
+            height: auto;
+            background-image: none;
+        }
+        .prospectSmarter {
+            position: absolute;
+            top: 13vh;
+            left: 4vh;
+        }
+    }
+
+
+    @media screen and (min-width: 768px) {
+        .sectionBox {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+
+        .blogLinkReferenced {
+            padding-left: 70px;
+        }
+
+        .pricingSection {
+            padding: 0px;
+        }
+
+        .slick-prev {
+            left: -25px;
+        }
+
+        .slick-next {
+            right: -25px;
+        }
+    }
+
+
+    @media screen and (max-width: 576px) {
+        .integrationPartners {
+            text-align: center;
+        }
+
+        .header-text {
+            text-align: center;
+        }
+
+        .nav-bar-content {
+        }
+
+        .pointerDesign:before {
+            display: none;
+        }
+
+        .slick-prev {
+            left: -13px;
+            top: 120px;
+        }
+
+        .slick-next {
+            right: -3px;
+            top: 120px;
+        }
+
+        .privacy-policy-wave {
+            bottom: 107px;
+            height: 160px;
+            top: -108px;
+        }
+
+        .splitter-line {
+            display: none;
+        }
+
+        .terms-container {
+            bottom: 101px;
+        }
+
+        .popupCard {
+            min-width: 20rem;
+        }
+
+        .leftImageCover, .rightImageCover, .leftImageAccountCover, .rightImageAccountCover, .leftCampaignImage {
+            height: 30vh;
+            background-position-x: 50%;
+        }
+
+        .rightTextAlign, .leftTextAlign {
+            padding-top: 0vh;
+            padding-left: 0vh;
+            padding-right: 0vh;
+        }
+
+        .waveContactDesign {
+            height: 82vh;
+        }
+
+        .boxSalesDesign {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .rolePerson, .roleDesign {
+            text-align: center;
+        }
+
+        .overviewDesign {
+            padding: 10px;
+        }
+
+        .listProspect {
+            font-size: 20px;
+        }
+
+        .imageWaveCampaign {
+            bottom: 7vh;
+        }
+
+        .excuseCard {
+            border-radius: 16px;
+            background-color: #ffffff;
+            -webkit-box-shadow: 0 9px 28px 0 rgba(0, 0, 0, 0.34);
+            box-shadow: 0 9px 28px 0 rgba(0, 0, 0, 0.34);
+            top: 63vh;
+            padding: 10px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .quoteDesign {
+            position: relative;
+            bottom: 50px;
+            color: #555555;
+            font-size: 34px;
+            left: 20px;
+        }
+
+        .detailsProspectText {
+            font-size: 18px;
+        }
+
+        .salesForceCover, .emailProspectCover {
+            height: auto;
+        }
+
+        .prospectText {
+            text-align: center;
+        }
+
+        .gettingStarted {
+            position: relative;
+            bottom: 6vh;
+        }
+
+        .waveDesignProspect, .faq-waveDesignProspect {
+            bottom: 7vh;
+        }
+
+        .pipelineText {
+            text-align: center;
+        }
+
+        .prospectTitleText {
+            font-size: 24px;
+        }
+
+        .prospectLaptopSecondDesign {
+            right: 0px;
+            max-width: 100%;
+        }
+
+        .accountProspectLaptopDesign {
+            right: 0px;
+            max-width: 100%;
+        }
+
+        .ratingMobileDesign {
+            display: flex;
+            justify-content: center;
+        }
+
+        .imageSpacingDesign {
+            padding-left: 0px;
+        }
+
+        .privacyPolicy {
+            top: 5vh;
+            color: #000;
+        }
+
+        .prospectLaptopOneDesign {
+            display: block;
+        }
+
+        .termsPolicy {
+            font-size: 12px;
+        }
+
+        .soloSection, .teamSection {
+            margin-bottom: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .textSizeDesign, .mainTextDesign {
+            color: #000;
+            text-align: center;
+        }
+
+        .gmailDesign {
+            padding-left: 20px;
+        }
+
+        .legend-cover-title {
+            top: 20px;
+        }
+
+        .leadIq-image-cover {
+            background: none;
+            background-color: #b3e6c2;
+            height: 100vh;
+        }
+
+        .img-set {
+            height: 20px;
+        }
+
+        .leadIqCycle {
+            position: relative;
+            bottom: 0vh;
+        }
+
+        .textAlign {
+            text-align: center;
+        }
+
+        .hubSpotDesign {
+            position: relative;
+            bottom: 34px;
+        }
+
+        .img-laptop {
+            left: 60px;
+        }
+
+        .legendLeadIq {
+            padding-left: 20px;
+            font-size: 16px;
+            top: 22px;
+        }
+
+        .salesForceDesign {
+            position: relative;
+            bottom: 44px;
+        }
+
+        .gmailDesign {
+            position: relative;
+            bottom: 20px;
+            right: 4px;
+        }
+
+        .universityHeaderMain {
+            height: 86rem;
+        }
+
+        .accountTextTitle {
+            text-align: center;
+        }
+
+        .alignCenter {
+            text-align: center;
+        }
+
+        .accountLogin {
+            text-align: center;
+        }
+
+        .imageDesignTestimonals, .imageDesignUniversity {
+            background-position: bottom 310px;
+        }
+
+        .imageDesignUniversityHeader, .imageDesignUniversity {
+            background: none;
+        }
+
+        .quoteUser {
+            margin-top: 0px;
+        }
+    }
+
+
+    /*
+@media (max-width:1440px) and (min-width:1280px) {
+.navigationHeader {
+    position: absolute;
+    top: 80px;
+    left: 130px;
+}
+.navigationOptions {
+    position: relative;
+    left: 100px;
+}
+}
+@media (max-width:1280px) and (min-width:1024px) {
+    .navigationHeader {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+    }
+
+    .navigationOptions {
+        position: relative;
+        left: 50px;
+    }
+}
+@media (max-width:1024px) and (min-width: 769px) {
+    .navigationHeader {
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+
+    .navigationOptions {
+        position: relative;
+        left: 50px;
+    }
+}
+@media (max-width:769px) and (min-width: 577px) {
+    .navigationHeader {
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+
+    .navigationOptions {
+        position: relative;
+        left: 10px;
+        font-size: 10px;
+    }
+} */
+    /*@media (max-width: 767px) {
+    body {
+        padding-top: 50px;
+    }
+}
+p{
+    font-size:18px;
+}
+body{
+    font-weight:300;
+}
+
+.leadiq-logo {
+    width: 130px;
+    height: 40px;
+    object-fit: contain;
+  margin-top:30px;
+  margin-left:130px;
+
+}
+.navbar {
+    display:flex;
+    float:right;
+    padding-top:40px;
+
+}
+.links{
+    padding-right:40px;
+}
+.navbar-buttons {
+    width: 200px;
+    height: 45px;
+    object-fit: contain;
+    background-color: #67cc84;
+    border:none;
+    color:white;
+    margin-right:20px;
+}
+.features-buttons {
+    width: 230px;
+    height: 55px;
+    object-fit: contain;
+    background-color: #67cc84;
+    border: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.buttons-cta {
+    width: 130px;
+    height: 40px;
+    object-fit: contain;
+    background-color: #67cc84;
+    border: none;
+    color: white;
+    margin-right: 20px;
+    width: 230px;
+    height: 55px;
+    object-fit: contain;
+    font-size:18px;
+    margin-top:20px;
+}
+.navbar-buttons-demo {
+    width: 200px;
+    height: 45px;
+    object-fit: contain;
+    background-color: #8099bd;
+    border: none;
+    color: white;
+    margin-right: 90px;
+
+}
+.features-buttons-demo {
+    width: 200px;
+    height: 55px;
+    object-fit: contain;
+    background-color: #8099bd;
+    border: none;
+    color: white;
+    margin-left: 90px;
+    font-size: 18px;
+}
+.banner-landing {
+    background-image: url('./assets/banner-background.jpg');
+    height: 700px;
+    background-size:contain;
+    width:100%;
+}
+.banner{
+    margin-top:100px;
+}
+.features{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.checkbox {
+    width: 23px;
+    height: 23px;
+}
+
+.checkbox-content {
+    display: flex;
+    font-size: 22px;
+ 
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #8099bd;
+}
+
+.paragraph-checkbox {
+    margin-top: 6px;
+    padding-left: 15px;
+}
+.image-integration{
+    width:150px;
+}
+.Integration {
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.08);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #8099bd;
+}
+.client-testimonial{
+    margin-top:80px;
+    margin-bottom:50px;
+}
+.image-review {
+    width: 51px;
+    height: 51px;
+    margin-top: 23px;
+}
+.person-image {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+.university-banner {
+    background-color: #b3e6c29c;
+}
+.university {
+    margin-top: 80px;
+    margin-bottom: 35px;
+}*/
