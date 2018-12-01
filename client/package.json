@@ -3,17 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "proxy": {
-    "/auth/login": {
-      "target": "http://localhost:9002"
-    },
-    "/auth/google": {
-      "target": "http://localhost:9002"
-    },
-    "/auth/facebook": {
-      "target": "http://localhost:9002"
-    },
-    "/api/*": {
-      "target": "http://localhost:9002"
+    "/api/blogs": {
+      "target": "http://localhost:9006"
     }
   },
   "dependencies": {
