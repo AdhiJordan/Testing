@@ -11,6 +11,21 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
+app.use(express.static('client/build'));
+
+app.get('*',  (req, res) => {
+	res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));      
+})
+
+if(process.env.NODE_ENV === 'production'){
+	app.use(express.static('static/build'));
+	const path = require('path');
+	app.get('*',  (req, res) => {
+		res.sendFile(path.resolve(__dirname, 'static', 'build', 'index.html'));      
+	})
+
+
+	
 let blogFolderPath = [], blog = null;
 let blogList = [];
 
@@ -50,18 +65,6 @@ function setApi(data) {
   })
 }
 
-app.use(express.static('client/build'));
-
-app.get('*',  (req, res) => {
-	res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));      
-})
-
-if(process.env.NODE_ENV === 'production'){
-	app.use(express.static('static/build'));
-	const path = require('path');
-	app.get('*',  (req, res) => {
-		res.sendFile(path.resolve(__dirname, 'static', 'build', 'index.html'));      
-	})
 }
 
 var server = app.listen(process.env.PORT || 9004, function () {
