@@ -25,11 +25,11 @@ if(process.env.NODE_ENV === 'production'){
 	})
 
 
-	
+
 let blogFolderPath = [], blog = null;
 let blogList = [];
 
-traverseDir('static/js/blogs');
+traverseDir('static/media');
 
 function traverseDir(dir) {
   fs.readdirSync(dir).forEach(file => {
