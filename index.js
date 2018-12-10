@@ -62,6 +62,11 @@ function readFile(blogFolderPath) {
 function setApi(data) {
 	let dataTest = data.substring(0, data.length - 1);
 	blogList.push(JSON.parse(dataTest));
+	blogList.sort(function compare(a, b) {
+	  var dateA = new Date(a.attributes.publishDate);
+	  var dateB = new Date(b.attributes.publishDate);
+	  return dateB - dateA;
+	});
 }
 
 if(blogList){
@@ -154,8 +159,13 @@ if(process.env.NODE_ENV === 'production'){
     }
 
 	function setApi(data) {
-	 let dataTest = data.substring(0, data.length - 1);
-	 blogList.push(JSON.parse(dataTest));
+		 let dataTest = data.substring(0, data.length - 1);
+		 blogList.push(JSON.parse(dataTest));
+		 blogList.sort(function compare(a, b) {
+		  var dateA = new Date(a.attributes.publishDate);
+		  var dateB = new Date(b.attributes.publishDate);
+		  return dateB - dateA;
+		});
 	}
 
 	if(blogList){
