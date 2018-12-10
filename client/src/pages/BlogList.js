@@ -14,7 +14,7 @@ class BlogList extends React.Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
-        fetch('https://leadiq.azurewebsites.net/api/blogs')
+        fetch('https://leadiq-new.azurewebsites.net/')
             .then(response => response.json())
             .then(data => console.log("response data", data))
     }

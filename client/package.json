@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "proxy": {
-    "/api/blogs": {
-      "target": "http://localhost:9006"
+    "/api": {
+      "target": "http://localhost:9006/api/blogs",
+      "secure": false
     }
   },
   "dependencies": {

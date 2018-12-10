@@ -32,26 +32,30 @@ class Demo extends React.Component {
         this.setState({ open: false });
     }
 
+    loadIframe(obj){
+        console.log("data", obj.contentWindow.location.pathname);
+    }
+
 
     getDemo() {
 
     }
+
     render() {
         const { fullScreen, classes } = this.props;
+        console.log("iframe hitting url is",document.referrer);
         return (
             <div>
                 <div className={"mt-2 btn liq-btn-secondary button-design liq-btn-primary-" + this.props.size}
                     onClick={this.handleClickOpen.bind(this)}>GET A DEMO</div>
-                <Dialog
-                    fullScreen={fullScreen}
+                <Dialog fullScreen={fullScreen}
                     open={this.state.open}
                     onClose={this.handleClose.bind(this)}
                     aria-labelledby="responsive-dialog-title"
-                    classes={(this.state.mode === 0) ? "" : { paper: classes.dialogPaper }}
-                >
+                    classes={(this.state.mode === 0) ? "" : { paper: classes.dialogPaper }}>
                     <DialogContent style={{ padding: "0" }}>
                         <div className="modal-body" style={{ minWidth: "550px" }}>
-                            <iframe id="frame" src="https://leadiq.chilipiper.com/router/talk-to-sales" className="lightboxDesign" ></iframe>
+                            <iframe id="frame" onLoad={this.loadIframe.bind(this)} src="https://leadiq.chilipiper.com/router/talk-to-sales" className="lightboxDesign" ></iframe>
                         </div>
                     </DialogContent>
                 </Dialog>

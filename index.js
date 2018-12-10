@@ -17,100 +17,105 @@ let blogList = [];
 traverseDir('client/src/blogs');
 
 function traverseDir(dir) {
-  fs.readdirSync(dir).forEach(file => {
-    blogFolderPath = path.join(dir, file);
-    if (fs.lstatSync(blogFolderPath).isDirectory()) {
-      traverseDir(blogFolderPath);
-      readFile(blogFolderPath)
-    } else {
-      readFile(blogFolderPath)
-    }
-  });
+ fs.readdirSync(dir).forEach(file => {
+   blogFolderPath = path.join(dir, file);
+   if (fs.lstatSync(blogFolderPath).isDirectory()) {
+         traverseDir(blogFolderPath);
+     // readFile(blogFolderPath)
+   } else {
+        
+         readFile(blogFolderPath)
+   }
+ });
 }
 
-function readFile() {
-  var md = require("markdown").markdown;
-  fs.readFile(blogFolderPath, { encoding: 'utf-8' }, function (err, data) {
-    if (!err) {
-      blog = fm(data);
-      let showData = (JSON.stringify(blog) + ',');
-      setApi(showData);
-    } else {
-      console.log(err);
-    }
-  });
+function readFile(blogFolderPath) {
+ var md = require("markdown").markdown;
+ fs.readFile(blogFolderPath, { encoding: 'utf-8' }, function (err, data) {
+   if (!err) {
+     blog = fm(data);
+     blog.attributes.url = blogFolderPath;
+     let showData = (JSON.stringify(blog) + ',');
+     setApi(showData);
+   } else {
+     console.log(err);
+   }
+ });
 }
 
 function setApi(data) {
-  let dataTest = data.substring(0, data.length - 1);
-  blogList.push(JSON.parse(dataTest));
+ let dataTest = data.substring(0, data.length - 1);
+ blogList.push(JSON.parse(dataTest));
 }
 
 if(blogList){
-		app.get('/api/blogs', function (req, res) {
-	    res.send( blogList );
-	})
+        app.get('/api/blogs', function (req, res) {
+        res.send( blogList );
+    })
 }
 
 
 app.use(express.static('client/build'));
 
 app.get('*',  (req, res) => {
-	res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));      
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 })
 
 if(process.env.NODE_ENV === 'production'){
-	app.use(express.static('static/build'));
-	const path = require('path');
-	app.get('*',  (req, res) => {
-		res.sendFile(path.resolve(__dirname, 'static', 'build', 'index.html'));      
-	})
+    app.use(express.static('static/build'));
+    const path = require('path');
+    app.get('*',  (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'static', 'build', 'index.html'));
+    })
 
-	let blogFolderPath = [], blog = null;
-	let blogList = [];
+    let blogFolderPath = [], blog = null;
+    let blogList = [];
 
-	traverseDir('static/media');
+    traverseDir('static/media');
 
-	function traverseDir(dir) {
-	  fs.readdirSync(dir).forEach(file => {
-	    blogFolderPath = path.join(dir, file);
-	    if (fs.lstatSync(blogFolderPath).isDirectory()) {
-	      traverseDir(blogFolderPath);
-	      readFile(blogFolderPath)
-	    } else {
-	      readFile(blogFolderPath)
-	    }
-	  });
-	}
+    function traverseDir(dir) {
+      fs.readdirSync(dir).forEach(file => {
+        blogFolderPath = path.join(dir, file);
+        if (fs.lstatSync(blogFolderPath).isDirectory()) {
+          traverseDir(blogFolderPath);
+          //readFile(blogFolderPath)
+        } else {
+          readFile(blogFolderPath)
+        }
+      });
+    }
 
-	function readFile() {
-	  var md = require("markdown").markdown;
-	  fs.readFile(blogFolderPath, { encoding: 'utf-8' }, function (err, data) {
-	    if (!err) {
-	      blog = fm(data);
-	      let showData = (JSON.stringify(blog) + ',');
-	      setApi(showData);
-	    } else {
-	      console.log(err);
-	    }
-	  });
-	}
+    function readFile(blogFolderPath) {
+      var md = require("markdown").markdown;
+      fs.readFile(blogFolderPath, { encoding: 'utf-8' }, function (err, data) {
+        if (!err) {
+          blog = fm(data);
+          blog.attributes.url = blogFolderPath;
+          let showData = (JSON.stringify(blog) + ',');
+          setApi(showData);
+        } else {
+          console.log(err);
+        }
+      });
+    }
 
 
 function setApi(data) {
-  let dataTest = data.substring(0, data.length - 1);
-  blogList.push(JSON.parse(dataTest));
+ let dataTest = data.substring(0, data.length - 1);
+ blogList.push(JSON.parse(dataTest));
+
+
 }
 
 if(blogList){
-		app.get('/api/blogs', function (req, res) {
-	    res.send( blogList );
-	})
+        app.get('/api/blogs', function (req, res) {
+        res.send( blogList );
+    })
 }
 
 }
 
 var server = app.listen(process.env.PORT || 9006, function () {
-  var port = server.address().port;
-  console.log("Express is working on port's " + port);
+ var port = server.address().port;
+ console.log("Express is working on port's " + port);
 });
