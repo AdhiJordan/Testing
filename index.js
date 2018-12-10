@@ -29,44 +29,81 @@ app.use(function(req, res, next) {
 let blogFolderPath = [], blog = null;
 let blogList = [];
 
+let podcastFolderPath = [], podcast = null, podcastList = [];
+
 traverseDir('client/src/blogs');
+traversePodcastDir('client/src/podcasts');
 
 function traverseDir(dir) {
- fs.readdirSync(dir).forEach(file => {
-   blogFolderPath = path.join(dir, file);
-   if (fs.lstatSync(blogFolderPath).isDirectory()) {
-         traverseDir(blogFolderPath);
-     // readFile(blogFolderPath)
-   } else {
-        
-         readFile(blogFolderPath)
-   }
- });
+ 	fs.readdirSync(dir).forEach(file => {
+    blogFolderPath = path.join(dir, file);
+	    if (fs.lstatSync(blogFolderPath).isDirectory()) {
+	        traverseDir(blogFolderPath);
+	    } else {
+			readFile(blogFolderPath)
+	    }
+    });
 }
 
 function readFile(blogFolderPath) {
- var md = require("markdown").markdown;
- fs.readFile(blogFolderPath, { encoding: 'utf-8' }, function (err, data) {
-   if (!err) {
-     blog = fm(data);
-     blog.attributes.url = blogFolderPath;
-     let showData = (JSON.stringify(blog) + ',');
-     setApi(showData);
-   } else {
-     console.log(err);
-   }
- });
+	var md = require("markdown").markdown;
+	fs.readFile(blogFolderPath, { encoding: 'utf-8' }, function (err, data) {
+	    if (!err) {
+		    blog = fm(data);
+		    blog.attributes.url = blogFolderPath;
+		    let showData = (JSON.stringify(blog) + ',');
+		    setApi(showData);
+	    } else {
+	    	console.log(err);
+	    }
+ 	});
 }
 
 function setApi(data) {
- let dataTest = data.substring(0, data.length - 1);
- blogList.push(JSON.parse(dataTest));
+	let dataTest = data.substring(0, data.length - 1);
+	blogList.push(JSON.parse(dataTest));
 }
 
 if(blogList){
-        app.get('/api/blogs', function (req, res) {
-        res.send( blogList );
-    })
+    app.get('/api/blogs', function (req, res) {
+    	res.send( blogList );
+	})
+}
+
+function traversePodcastDir(dir) {
+ 	fs.readdirSync(dir).forEach(file => {
+    podcastFolderPath = path.join(dir, file);
+	    if (fs.lstatSync(podcastFolderPath).isDirectory()) {
+	        traversePodcastDir(podcastFolderPath);
+	    } else {
+			readFilePodcast(podcastFolderPath)
+	    }
+    });
+}
+
+function readFilePodcast(podcastFolderPath) {
+	var md = require("markdown").markdown;
+	fs.readFile(podcastFolderPath, { encoding: 'utf-8' }, function (err, data) {
+	    if (!err) {
+		    podcast = fm(data);
+		    podcast.attributes.url = podcastFolderPath;
+		    let showData = (JSON.stringify(podcast) + ',');
+		    setApiPodcast(showData);
+	    } else {
+	    	console.log(err);
+	    }
+ 	});
+}
+
+function setApiPodcast(data) {
+	let dataTest = data.substring(0, data.length - 1);
+	podcastList.push(JSON.parse(dataTest));
+}
+
+if(podcastList){
+    app.get('/api/podcasts', function (req, res) {
+    	res.send( podcastList );
+	})
 }
 
 
@@ -85,8 +122,10 @@ if(process.env.NODE_ENV === 'production'){
 
     let blogFolderPath = [], blog = null;
     let blogList = [];
+	let podcastFolderPath = [], podcast = null, podcastList = [];
 
     traverseDir('static/media');
+    traversePodcastDir('static/media');
 
     function traverseDir(dir) {
       fs.readdirSync(dir).forEach(file => {
@@ -114,18 +153,51 @@ if(process.env.NODE_ENV === 'production'){
       });
     }
 
+	function setApi(data) {
+	 let dataTest = data.substring(0, data.length - 1);
+	 blogList.push(JSON.parse(dataTest));
+	}
 
-function setApi(data) {
- let dataTest = data.substring(0, data.length - 1);
- blogList.push(JSON.parse(dataTest));
+	if(blogList){
+	        app.get('/api/blogs', function (req, res) {
+	        res.send( blogList );
+	    })
+	}
 
-
+function traversePodcastDir(dir) {
+ 	fs.readdirSync(dir).forEach(file => {
+    podcastFolderPath = path.join(dir, file);
+	    if (fs.lstatSync(podcastFolderPath).isDirectory()) {
+	        traversePodcastDir(podcastFolderPath);
+	    } else {
+			readFilePodcast(podcastFolderPath)
+	    }
+    });
 }
 
-if(blogList){
-        app.get('/api/blogs', function (req, res) {
-        res.send( blogList );
-    })
+function readFilePodcast(podcastFolderPath) {
+	var md = require("markdown").markdown;
+	fs.readFile(podcastFolderPath, { encoding: 'utf-8' }, function (err, data) {
+	    if (!err) {
+		    podcast = fm(data);
+		    podcast.attributes.url = podcastFolderPath;
+		    let showData = (JSON.stringify(podcast) + ',');
+		    setApiPodcast(showData);
+	    } else {
+	    	console.log(err);
+	    }
+ 	});
+}
+
+function setApiPodcast(data) {
+	let dataTest = data.substring(0, data.length - 1);
+	podcastList.push(JSON.parse(dataTest));
+}
+
+if(podcastList){
+    app.get('/api/podcasts', function (req, res) {
+    	res.send( podcastList );
+	})
 }
 
 }
