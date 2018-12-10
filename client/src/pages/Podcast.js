@@ -14,7 +14,7 @@ class Podcast extends React.Component {
 
     componentDidMount() {
         window.scrollTo(0, 0);
-        fetch('http://localhost:9006/api/podcasts')
+        fetch('https://leadiq-new.azurewebsites.net/api/podcasts')
         .then(response => response.json())
         .then(data => this.setState({
             podcasts: [...this.state.podcasts, ...data]

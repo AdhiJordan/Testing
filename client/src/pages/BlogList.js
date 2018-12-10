@@ -14,7 +14,7 @@ class BlogList extends React.Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
-        fetch('http://localhost:9006/api/blogs')
+        fetch('https://leadiq-new.azurewebsites.net/api/blogs')
             .then(response => response.json())
             .then(data => this.setState({
                 blogs: [...this.state.blogs, ...data]
