@@ -86,7 +86,6 @@ var cors = require('cors');
 	}
 
 
-
 	function traversePodcastDir(dir) {
 	 	fs.readdirSync(dir).forEach(file => {
 	    podcastFolderPath = path.join(dir, file);
@@ -113,13 +112,30 @@ var cors = require('cors');
 	}
 
 	function setApiPodcast(data) {
+		let arrayPodcast = [];
 		let dataTest = data.substring(0, data.length - 1);
-		podcastList.push(JSON.parse(dataTest));
+		arrayPodcast.push(JSON.parse(dataTest));
+		arrayPodcast.filter(function (data) {
+			if(data.attributes.publishDate){
+				return podcastList.push(data);
+			}else{
+				resultPodcast.push(data);
+			}
+		});
+		podcastList.sort(function compare(a, b) {
+		  var dateA = new Date(a.attributes.publishDate);
+		  var dateB = new Date(b.attributes.publishDate);
+		  return dateB - dateA;
+		});
+		
 	}
 
-	if(podcastList){
+
+	if(podcastList && resultPodcast){
 	    app.get('/api/podcasts', function (req, res) {
-	    	res.send( podcastList );
+	    	let finalPodcasts = [];
+	    	finalPodcasts = [...podcastList, ...resultPodcast];
+	    	res.send(finalPodcasts);
 		})
 	}
 
@@ -222,13 +238,30 @@ if(process.env.NODE_ENV === 'production'){
 	}
 
 	function setApiPodcast(data) {
+		let arrayPodcast = [];
 		let dataTest = data.substring(0, data.length - 1);
-		podcastList.push(JSON.parse(dataTest));
+		arrayPodcast.push(JSON.parse(dataTest));
+		arrayPodcast.filter(function (data) {
+			if(data.attributes.publishDate){
+				return podcastList.push(data);
+			}else{
+				resultPodcast.push(data);
+			}
+		});
+		podcastList.sort(function compare(a, b) {
+		  var dateA = new Date(a.attributes.publishDate);
+		  var dateB = new Date(b.attributes.publishDate);
+		  return dateB - dateA;
+		});
+		
 	}
 
-	if(podcastList){
+
+	if(podcastList && resultPodcast){
 	    app.get('/api/podcasts', function (req, res) {
-	    	res.send( podcastList );
+	    	let finalPodcasts = [];
+	    	finalPodcasts = [...podcastList, ...resultPodcast];
+	    	res.send(finalPodcasts);
 		})
 	}
 
