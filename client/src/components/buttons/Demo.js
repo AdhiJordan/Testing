@@ -34,8 +34,8 @@ class Demo extends React.Component {
 
 
 
-    getDemo() {
-
+    getIframeLocation() {
+       console.log("iframe", document.referrer);
     }
 
     render() {
@@ -51,7 +51,8 @@ class Demo extends React.Component {
                     classes={(this.state.mode === 0) ? "" : { paper: classes.dialogPaper }}>
                     <DialogContent style={{ padding: "0" }}>
                         <div className="modal-body" style={{ minWidth: "550px" }}>
-                            <iframe id="frame" src="https://leadiq.chilipiper.com/router/talk-to-sales" className="lightboxDesign" ></iframe>
+                            <iframe id="frame" onLoad={this.getIframeLocation.bind(this)}
+                            src="https://leadiq.chilipiper.com/router/talk-to-sales" className="lightboxDesign" ></iframe>
                         </div>
                     </DialogContent>
                 </Dialog>
