@@ -18,7 +18,7 @@ body {
 
 .prospect-cover-image {
     background-image: url('/img/home-bg-cover.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
@@ -1908,6 +1908,10 @@ img {
         .slick-next {
             right: -3px;
             top: 120px;
+        }
+
+        .testimonial-section{
+            display: none;
         }
 
         .privacy-policy-wave {

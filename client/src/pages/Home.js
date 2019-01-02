@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Demo from '../components/buttons/Demo';
 import FreeLeads from '../components/buttons/FreeLeads';
@@ -52,7 +53,7 @@ class Home extends React.Component {
                             <section>
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <p className="mb-3 homepage-title">Prospect Smarter </p>
+                                        <p className="mb-3 homepage-title">Prospect Smarter</p>
                                         <p className="mb-3">Find prospect data in real time, get it into your <br /> sales tools without doing a million clicks.</p>
                                         <div className="row pl-3">
                                             <FreeLeads size="lg" />
@@ -63,6 +64,13 @@ class Home extends React.Component {
                             </section>
                         </div>
                     </div>
+                </div>
+
+                <div className="testimonial-section"></div>
+                <div className="container">
+                    <section>
+                        <TestimonialCard browserVersion={this.state.browserVersion} />
+                    </section>
                 </div>
 
                 <div className="container">
@@ -140,13 +148,7 @@ class Home extends React.Component {
                     </div>
                 </div>
 
-                <div className="testimonial-section"></div>
 
-                <div className="container">
-                    <section>
-                        <TestimonialCard browserVersion={this.state.browserVersion} />
-                    </section>
-                </div>
             </div>
         );
     }
