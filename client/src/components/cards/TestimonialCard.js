@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import Dialog from '@material-ui/core/Dialog';
 import { withStyles } from '@material-ui/core/styles';
 import DialogContent from '@material-ui/core/DialogContent';
@@ -60,9 +60,12 @@ class TestimonialCard extends React.Component {
         const { fullScreen, classes } = this.props;
         return (
             <div className="container d-flex justify-content-center">
-                <a onClick={this.handleClickOpen.bind(this)}>
+                <a onClick={this.handleClickOpen.bind(this)} style={{boxShadow: "0px 20px 20px #888888"}}>
                     <img src="https://play.vidyard.com/G6nvKM2EtRLTEfqQVAwY6W.jpg?email=1&" alt="Testimonal Card" className="img-fluied" />
-                    <p className="pt-4">“In just two weeks, we brought in 6 new <br /> opportunities sourced by LeadIQ.”</p>
+                    <p className="p-4">
+                        “In just two weeks, we brought in 6 new <br /> opportunities sourced by LeadIQ.”<br />
+                    </p>
+                    <p className="pl-4">VP of Sales Operations, TripActions <br /> <label className="liq-text-primary">David Zwerin</label></p>
                 </a>
                 <Dialog
                     fullScreen={fullScreen}
